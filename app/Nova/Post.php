@@ -5,6 +5,7 @@ namespace App\Nova;
 use Laravel\Nova\Fields\ID;
 use Laravel\Nova\Fields\Text;
 use Illuminate\Http\Request;
+use Laravel\Nova\Fields\Textarea;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
 class Post extends Resource
@@ -43,6 +44,7 @@ class Post extends Resource
         return [
             ID::make()->sortable(),
             Text::make("title"),
+            Textarea::make("Desc"),
         ];
     }
 

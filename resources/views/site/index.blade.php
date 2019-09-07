@@ -12,7 +12,6 @@
         </div>
     </section>
     <!--================End Home Banner Area =================-->
-
     <!--================Design Area =================-->
     <section class="feature_area mt-5">
         <div class="container mt-5">

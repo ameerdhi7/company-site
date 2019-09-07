@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "986ff9591a5aad20d0115699c6acd228",
+    "content-hash": "0e170773fc998ca7ca84401d4da2df73",
     "packages": [
         {
             "name": "cakephp/chronos",
@@ -62,51 +62,6 @@
                 "time"
             ],
             "time": "2019-06-17T15:19:18+00:00"
-        },
-        {
-            "name": "coderello/laravel-nova-lang",
-            "version": "1.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/coderello/laravel-nova-lang.git",
-                "reference": "47d54415602194f2f77862025f18eb7d0ca4b2bb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/coderello/laravel-nova-lang/zipball/47d54415602194f2f77862025f18eb7d0ca4b2bb",
-                "reference": "47d54415602194f2f77862025f18eb7d0ca4b2bb",
-                "shasum": ""
-            },
-            "require": {
-                "laravel/framework": "^5.5|^6.0",
-                "php": ">=7.1"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Coderello\\LaravelNovaLang\\Providers\\LaravelNovaLangServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Coderello\\LaravelNovaLang\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Language support for Laravel Nova.",
-            "keywords": [
-                "lang",
-                "language",
-                "laravel",
-                "nova",
-                "support"
-            ],
-            "time": "2019-09-05T02:46:43+00:00"
         },
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -952,8 +907,7 @@
             "dist": {
                 "type": "path",
                 "url": "./nova",
-                "reference": "78498b6be1221f13339e0ffe6b072e0403d71f79",
-                "shasum": null
+                "reference": "78498b6be1221f13339e0ffe6b072e0403d71f79"
             },
             "require": {
                 "cakephp/chronos": "^1.0",
@@ -3325,8 +3279,8 @@
             "authors": [
                 {
                     "name": "Tijs Verkoyen",
-                    "role": "Developer",
-                    "email": "css_to_inline_styles@verkoyen.eu"
+                    "email": "css_to_inline_styles@verkoyen.eu",
+                    "role": "Developer"
                 }
             ],
             "description": "CssToInlineStyles is a class that enables you to convert HTML-pages/files into HTML-pages/files with inline styles. This is very useful when you're sending emails.",

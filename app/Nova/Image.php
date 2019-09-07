@@ -3,6 +3,7 @@
 namespace App\Nova;
 
 use Laravel\Nova\Fields\ID;
+use Laravel\Nova\Fields\Avatar;
 use Illuminate\Http\Request;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
@@ -41,6 +42,7 @@ class Image extends Resource
     {
         return [
             ID::make()->sortable(),
+            Avatar::make("image"),
         ];
     }
 
