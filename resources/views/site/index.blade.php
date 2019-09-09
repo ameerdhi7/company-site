@@ -1,13 +1,20 @@
 @extends("layouts.master")
 @section("content")
     <style>
-        .carousel-item{
-background-color:rgba(0,0,0,0.7);
+        .carousel-item:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.5);
         }
     </style>
     <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
         <div class="carousel-inner"
-        >
+        >ير
             <div class="carousel-item active">
                 <img class="d-block slide-height   w-100" src="./assets/img/slides/slide2.jpeg" alt="First slide">
             </div>
