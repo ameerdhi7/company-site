@@ -1,50 +1,71 @@
-<footer class="footer_area p_120">
+<footer class="footer">
     <div class="container">
-        <div class="row footer_inner">
-            <div class="col-lg-5 col-sm-6">
-                <aside class="f_widget ab_widget">
-                    <div class="f_title">
-                        <h3>About Me</h3>
-                    </div>
-                    <p>If you own an Iphone, you’ve probably already worked out how much fun it is to use it to watch movies-it has that nice big screen, and the sound quality.</p>
-                </aside>
+        <div class="row">
+            <div class="col-md-3">
+                <h1 class="title">Universal</h1>
             </div>
-            <div class="col-lg-5 col-sm-6">
-                <aside class="f_widget news_widget">
-                    <div class="f_title">
-                        <h3>Newsletter</h3>
-                    </div>
-                    <p>Stay updated with our latest trends</p>
-                    <div id="mc_embed_signup">
-                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
-                            <div class="input-group d-flex flex-row">
-                                <input name="EMAIL" placeholder="Enter email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
-                                <button class="btn sub-btn"><span class="lnr lnr-arrow-right"></span></button>
-                            </div>
-                            <div class="mt-10 info"></div>
-                        </form>
-                    </div>
-                </aside>
+            <div class="col-md-3 col-6">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link">
+                            Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./examples/landing-page.html" class="nav-link">
+                            Landing
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./examples/register-page.html" class="nav-link">
+                            Register
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./examples/profile-page.html" class="nav-link">
+                            Profile
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <div class="col-lg-2">
-                <aside class="f_widget social_widget">
-                    <div class="f_title">
-                        <h3>Follow Me</h3>
-                    </div>
-                    <p>Let us be social</p>
-                    <ul class="list">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a href="#"><i class="fa fa-behance"></i></a></li>
-                    </ul>
-                </aside>
+            <div class="col-md-3 col-6">
+                <ul class="nav">
+                    <li class="nav-item">
+                        <a href="https://creative-tim.com/contact-us?ref=blkdsp-footer" class="nav-link">
+                            Contact Us
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://creative-tim.com/about-us?ref=blkdsp-footer" class="nav-link">
+                            About Us
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="http://creative-tim.com/blog?ref=blkdsp-footer" class="nav-link">
+                            Blog
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="https://opensource.org/licenses/MIT?ref=blkdsp-footer" class="nav-link">
+                            License
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </div>
-        <div class="copy_right_text">
-            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                Copyright company &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |
-                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            <div class="col-md-3">
+                <h3 class="title">Follow us:</h3>
+                <div class="btn-wrapper profile text-left">
+                    <a target="_blank" href="https://twitter.com/creativetim" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a target="_blank" href="https://www.facebook.com/creativetim" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Like us">
+                        <i class="fab fa-facebook-square"></i>
+                    </a>
+                    <a target="_blank" href="https://dribbble.com/creativetim" class="btn btn-icon btn-neutral  btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
+                        <i class="fab fa-dribbble"></i>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </footer>

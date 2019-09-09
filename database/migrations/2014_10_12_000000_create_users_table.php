@@ -22,7 +22,7 @@ class CreateUsersTable extends Migration
             $table->rememberToken();
             $table->timestamps();
         });
-        $first=["name"=>"admin","email"=>"ameer@gmail.com","password"=>\Illuminate\Support\Facades\Hash::make("adminadmin")];
+        $first=["name"=>"admin","email"=>"admin@gmail.com","password"=>\Illuminate\Support\Facades\Hash::make("adminadmin")];
         \App\User::create($first);
     }
 

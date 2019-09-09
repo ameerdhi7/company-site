@@ -4,6 +4,10 @@ namespace App\Nova;
 
 use Laravel\Nova\Fields\ID;
 use Illuminate\Http\Request;
+use Laravel\Nova\Fields\Date;
+use Laravel\Nova\Fields\BelongsTo;
+use App\Nova\Partner;
+use Laravel\Nova\Fields\Text;
 use Laravel\Nova\Http\Requests\NovaRequest;
 
 class Project extends Resource
@@ -41,6 +45,10 @@ class Project extends Resource
     {
         return [
             ID::make()->sortable(),
+            Text::make("title"),
+            Text::make("location"),
+            Text::make("Year"),
+            BelongsTo::make('Partner'),
         ];
     }
 

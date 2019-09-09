@@ -12,4 +12,5 @@
 */
 
 Route::view("/","site.index");
+Route::view("/about","site.about");
 Route::get("/news","SiteController@getPosts");
