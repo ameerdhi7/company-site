@@ -1,5 +1,14 @@
 @extends("layouts.master")
 @section("content")
+    <style>
+        footer{
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            z-index: 1030;
+        }
+    </style>
         <div class="section mt-2 mb-3">
             <div class="container-fluid">
                 <!-- <img src="../assets/img/shape-s.png" class="path path3"> -->
@@ -38,6 +47,8 @@
                                 <div class="row justify-content-start">
                                     <div class="col-auto">
                                         <div class="card ">
+                                            @isset($posts[0]->desc)
+
                                             <div class="card-body p-2">
                                                 <p class="mb-1">
                                                     {{$posts[0]->desc}}
@@ -46,6 +57,7 @@
                                                     <small class="opacity-60"><i class="far fa-clock"></i> 3:14am</small>
                                                 </div>
                                             </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -54,7 +66,9 @@
                                         <span class="badge text-white">Wed, 3:27pm</span>
                                     </div>
                                 </div>
-                        </div>
+                                @endisset
+
+                            </div>
                     </div>
                 </div>
             </div>

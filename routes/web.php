@@ -10,7 +10,11 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
-Route::view("/","site.index");
+Route::get("/","SiteController@home");
+Route::get("/projects","SiteController@getProjects");
+Route::get("/partners/{partner}","SiteController@getPartnerProjects");
+Route::view("/contact","site.about");
 Route::view("/about","site.about");
 Route::get("/news","SiteController@getPosts");
+Route::get("/album","SiteController@getImages");
+Route::post("/contact","SiteController@storeMessage");

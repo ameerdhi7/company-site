@@ -1,7 +1,7 @@
 @extends("layouts.master")
 @section("content")
         <div class="page-header header-filter contactus-3">
-            <div class="page-header-image" style="background-image: url('../assets/img/andre-benz.jpg');"></div>
+            <div class="page-header-image" style="background-image: url('/assets/img/andre-benz.jpg');"></div>
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 text-center">
@@ -21,7 +21,7 @@
                                 <i class="tim-icons icon-square-pin"></i>
                             </div>
                             <h4 class="info-title">Address</h4>
-                            <p class="description">12124 First Street, nr 54</p>
+                            <p class="description">Baghdad-al-Mansour-14 Ramadan street</p>
                         </div>
                     </div>
                     <div class="col-lg-3">
@@ -41,7 +41,8 @@
                                 <i class="tim-icons icon-mobile"></i>
                             </div>
                             <h4 class="info-title">Phone Number</h4>
-                            <p class="description">+1(424) 535 3523</p>
+                            <p class="description">009647901329396</p>
+                            <p class="description">009647719424271</p>
                         </div>
                     </div>
                     <div class="col-lg-3">
@@ -64,31 +65,36 @@
                         <h4 class="desc">Whether you have questions or you would just like to say hello, contact us.</h4>
                     </div>
                 </div>
+                <div class="row justify-content-center">
+                    <div class="col-auto">
+                        @if($errors->any())
+                            <div class="alert black mt-0" role="alert">
+                                <h3 class="red">Please Enter Vaild Data</h3>
+                                <ol>
+                                    @foreach($errors->all() as $error)
+                                        <li class="mt-2  text-center text-white"><h3>{{$error}}</h3></li>
+                                    @endforeach
+                                </ol>
+                            </div>
+                        @endif
+                    </div>
+                </div>
                 <div class="row">
                     <div class="col-md-10 mx-auto ">
-                        <form role="form" class="p-3" id="contact-form" method="post">
+                        <form  action="/contact" class="p-3" id="contact-form" method="post">
+                            @csrf
                             <div class="card-body">
                                 <div class="row">
-                                    <div class="col-md-6">
-                                        <label>First name</label>
+                                    <div class="col-md-12">
+                                        <label>Full name</label>
                                         <div class="input-group">
                                             <div class="input-group-prepend">
                                                 <span class="input-group-text"><i class="tim-icons icon-single-02"></i></span>
                                             </div>
-                                            <input type="text" class="form-control" placeholder="First Name..." aria-label="First Name...">
+                                            <input type="text" name="full_name" class="form-control" placeholder="Full Name..." aria-label="First Name...">
                                         </div>
                                     </div>
-                                    <div class="col-md-6">
-                                        <div class="form-group">
-                                            <label>Last name</label>
-                                            <div class="input-group">
-                                                <div class="input-group-prepend">
-                                                    <span class="input-group-text"><i class="tim-icons icon-caps-small"></i></span>
-                                                </div>
-                                                <input type="text" class="form-control" placeholder="Last Name..." aria-label="Last Name...">
-                                            </div>
-                                        </div>
-                                    </div>
+
                                 </div>
                                 <div class="form-group">
                                     <label>Email address</label>
@@ -96,7 +102,7 @@
                                         <div class="input-group-prepend">
                                             <span class="input-group-text"><i class="tim-icons icon-email-85"></i></span>
                                         </div>
-                                        <input type="text" class="form-control" placeholder="Email Here...">
+                                        <input type="email" name="email" class="form-control" placeholder="Email Here...">
                                     </div>
                                 </div>
                                 <div class="form-group">
@@ -105,7 +111,7 @@
                                 </div>
                                 <div class="row">
                                     <div class="col-md-6 ml-auto">
-                                        <button type="submit" class="btn btn-primary btn-round pull-right">Send Message</button>
+                                        <button type="submit" class="btn btn-secondary btn-round pull-right">Send Message</button>
                                     </div>
                                 </div>
                             </div>
@@ -114,5 +120,4 @@
                 </div>
             </div>
         </div>
-
     @endsection
