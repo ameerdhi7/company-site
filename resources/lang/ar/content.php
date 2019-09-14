@@ -34,7 +34,10 @@ return [
     'contact_email'=>"الايميل الالكتروني",
     'contact_message'=>"الرسالة",
     'contact_button'=>"أرسال",
-    'footer1'=>"تابعنا"
+    'footer1'=>"تابعنا",
+    'album_page'=>"الألبوم",
+
+
 ];
 
 

@@ -14,7 +14,7 @@
                 <!-- <img src="../assets/img/shape-s.png" class="path path3"> -->
                 <div class="row justify-content-center align-items-center">
                     <div class="col-auto">
-                        <h1 class="title text-white">LATEST NEWS</h1>
+                        <h1 class="title text-white">{{trans("content.news_page")}}</h1>
                     </div>
                 </div>
 <div class="row">

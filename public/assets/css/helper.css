@@ -161,6 +161,9 @@ h2{
 .alignment{
 text-align:right;
 }
+.fix-height{
+    min-height: 550px;
+}
 
 
 

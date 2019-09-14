@@ -8,14 +8,11 @@
             left: 0;
             z-index: 1030;
         }
-        .fix-height{
-            min-height: 550px;
-        }
     </style>
    <div class="container fix-height">
        <div class="row mt-5 justify-content-center">
            <div class="col-auto">
-               <h1 class="title text-center text-white mt-4 ">{{trans("content")}}</h1>
+               <h1 class="title text-center text-white mt-4 ">{{trans("content.album_page")}}</h1>
            </div>
        </div>
        <div class="row justify-content-center mt-1">

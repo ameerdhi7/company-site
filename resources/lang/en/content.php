@@ -10,8 +10,8 @@ return [
     'contact'=>"Contact",
     'album'=>"GALLERY",
     'home'=>"HOME",
-    'news_page'=>"LATEST NEWS",
     'projects_page'=>"our awesome projects",
+    'news_page'=>"LATEST NEWS",
     'search'=>"ابحث",
     'about_1'=>"WELCOME !",
     'about_2'=>"KNOW MORE ABOUT US",
@@ -34,6 +34,7 @@ founded in the republic of jake -Brno",
     'contact_message'=>"MESSAGE",
     'contact_button'=>"send message",
     'footer1'=>"Follow Us",
+    'album_page'=>"our album",
 
 
 ];
