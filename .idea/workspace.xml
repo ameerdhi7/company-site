@@ -2,324 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04781731-9c7b-4d9f-a184-3efad79b17e8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Nova/Contact.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2019_09_11_113028_create_contacts_table.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slides/slide1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slides/slide2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/slides/slide3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/_buttons-extend.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/_dropdown-extend.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/_example-pages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/_footers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/_info-areas.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/_media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/_misc-extend.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/_modals-extend.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/_navbar-extend.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/_pills-extend.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/_responsive.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/_sections-extend.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/_social-buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/avatars/_avatar-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/avatars/_avatar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_breadcrumb.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_button-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_close.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_code.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_custom-forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_images.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_input-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_jumbotron.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_media.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_popover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_print.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_root.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_spinners.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_toasts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_tooltip.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_transitions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_type.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/bootstrap-grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/bootstrap-reboot.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/bootstrap.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_background-variant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_border-radius.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_caret.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_deprecate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_gradients.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_grid.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_hover.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_image.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_list-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_lists.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_reset-text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_resize.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_size.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_table-row.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_text-hide.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_transition.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/mixins/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/utilities/_align.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/utilities/_background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/utilities/_borders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/utilities/_clearfix.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/utilities/_display.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/utilities/_embed.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/utilities/_flex.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/utilities/_float.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/utilities/_overflow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/utilities/_position.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/utilities/_shadows.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/utilities/_sizing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/utilities/_spacing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/utilities/_stretched-link.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/utilities/_text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/utilities/_visibility.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/bootstrap/vendor/_rfs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/cards/_card-background.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/cards/_card-blog.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/cards/_card-contact.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/cards/_card-extend.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/cards/_card-fashion.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/cards/_card-form-horizontal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/cards/_card-login.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/cards/_card-no-shadow.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/cards/_card-pricing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/cards/_card-product.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/cards/_card-profile.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/cards/_card-raised.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/cards/_card-testimonials.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_alerts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_badge.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_card.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_checkboxes-radio.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_example-pages.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_fixed-plugin.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_footer.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_images.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_info-areas.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_input-group.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_misc.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_modal.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_navbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_pagination.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_pills.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_progress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_rtl.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_sections.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_tabs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_type.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_utilities.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/_variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/cards/_card-chart.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/cards/_card-map.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/cards/_card-plain.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/cards/_card-register.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/cards/_card-stats.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/cards/_card-task.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/cards/_card-user.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/mixins/_alert.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/mixins/_background-variant.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/mixins/_badges.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/mixins/_buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/mixins/_dropdown.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/mixins/_forms.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/mixins/_icon.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/mixins/_inputs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/mixins/_modals.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/mixins/_page-header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/mixins/_popovers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/mixins/_vendor-prefixes.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/mixins/_wizard.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/mixins/opacity.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/sections/_blogs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/sections/_contactus.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/sections/_features.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/sections/_headers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/sections/_pricing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/sections/_projects.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/sections/_social-subscribe-lines.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/sections/_team.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/sections/_testimonials.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/utilities/_backgrounds.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/utilities/_floating.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/utilities/_helper.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/utilities/_position.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/utilities/_shadows.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/utilities/_sizing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/utilities/_spacing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/utilities/_text.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/utilities/_transform.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/vendor/_plugin-animate-bootstrap-notify.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/vendor/_plugin-bootstrap-switch.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/vendor/_plugin-datetimepicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/vendor/_plugin-nouislider.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/custom/vendor/_plugin-perfect-scrollbar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/mixins/_social-buttons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/mixins/_tags.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/plugins/_plugin-bootstrap-select.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/plugins/_plugin-carousel-slick.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/plugins/_plugin-datetimepicker.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/plugins/_plugin-isometricGrids.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/plugins/_plugin-jasny-fileupload.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/plugins/_plugin-tagsinput.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/sections/_accordion.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/sections/_blogs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/sections/_contactus.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/sections/_features.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/sections/_headers.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/sections/_pricing.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/sections/_projects.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/sections/_social-subscribe-lines.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/sections/_tables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/sections/_team.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/sass/scss/blk-design-system-pro/sections/_testimonials.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/errors.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/site/album.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/site/projects.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Middleware/Lang.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/img/team.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/pagination.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/passwords.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/ar/validation.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/lang/en/content.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/site/contact.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SiteController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nova/resources/views/partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/nova/resources/views/partials/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nova/resources/views/partials/logo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/nova/resources/views/partials/logo.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nova/resources/views/partials/meta.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/nova/resources/views/partials/meta.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/css/blk-design-system-pro.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/blk-design-system-pro.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Kernel.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nova/resources/js/router/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/nova/resources/js/router/routes.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/assets/css/helper.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/css/helper.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/accordion.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/blogpost1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/blogpost2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/blogpost3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/blogpost4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/blogpost5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/blogpost6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/blogpost7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/card-btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/card-orange.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/contact1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/contact2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/contact3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/contact4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/content.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/content1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/dribbble-btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/features1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/features2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/features3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/features4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/features5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/features6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/gucci.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/header1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/header2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/header3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/header4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/header5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/header6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pages/404-error.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pages/500-error.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pages/about-us.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pages/account-settings.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pages/blog-post.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pages/blog-posts.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pages/chat-page.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pages/checkout-page.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pages/contact.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pages/ecommerce.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pages/invoice-page.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pages/landing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pages/login.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pages/pricing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pages/product.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pages/profile.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pages/register.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pages/reset-page.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pricing1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pricing2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pricing3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pricing4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pricing5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/pricing6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/projects1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/projects2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/projects3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/projects4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/success-btn.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/table.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/table1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/table2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/team1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/team2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/team3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/team4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/team5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/testimonials1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/testimonials2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/testimonials3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/presentation-page/testimonials4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/slides/slide1.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/slides/slide2.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/img/slides/slide3.jpeg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/assets/scss/blk-design-system-pro/bootstrap/utilities/_position.scss" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/scss/blk-design-system-pro/bootstrap/utilities/_position.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/demo/demo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/demo/demo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/footer.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/master.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/layouts/nav.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/nav.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/site/about.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/about.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/album.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/album.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/site/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/site/news.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/news.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/nova/partials/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/nova/partials/footer.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/vendor/nova/partials/logo.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/vendor/nova/partials/logo.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/site/projects.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/site/projects.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
     </list>
@@ -334,6 +43,20 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -443,7 +166,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/assets/img/slides" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources/lang/en" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -456,11 +179,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/resources/lang/en" />
+      <recent name="$PROJECT_DIR$/resources/lang" />
+      <recent name="$PROJECT_DIR$/public/assets/img" />
       <recent name="$PROJECT_DIR$/public/assets/img/slides" />
       <recent name="$PROJECT_DIR$/resources/sass" />
-      <recent name="$PROJECT_DIR$/public/assets/img" />
-      <recent name="$PROJECT_DIR$/public/img" />
-      <recent name="$PROJECT_DIR$/public" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -494,7 +217,8 @@
       <workItem from="1567775126688" duration="11565000" />
       <workItem from="1567845681006" duration="7266000" />
       <workItem from="1568011736085" duration="20887000" />
-      <workItem from="1568189271697" duration="18656000" />
+      <workItem from="1568189271697" duration="29096000" />
+      <workItem from="1568446035712" duration="15274000" />
     </task>
     <servers />
   </component>

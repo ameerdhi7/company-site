@@ -13,7 +13,7 @@ export default [
     {
         name: 'dashboard',
         path: '/',
-        redirect: '/dashboards/main',
+        redirect: '/nova/resources/projects',
     },
     {
         name: 'dashboard.custom',

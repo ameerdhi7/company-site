@@ -2,7 +2,7 @@
     <div class="container">
         <div class="navbar-translate">
             <div class="row justify-content-between align-items-center">
-                <div class="col-2">
+                <div class="col-3">
                     <a href="/">                    <img class="w-100" style="max-height: 50px;object-fit: fill"  src="/assets/img/logo.png" alt="">
                     </a>
                 </div>
@@ -30,46 +30,49 @@ UNIVERSAL                         </a>
                 </div>
             </div>
             <div class="col-12">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link mt-1" href="/">
-                            HOME
+                <ul class="navbar-nav {{app()->getLocale()=="ar"?"ar-nav":""}}">
+                    <li class="nav-item ">
+                        <a class="nav-link  mt-1" href="/">
+                            {{trans("content.home")}}
+
                         </a>
                     </li>
-
                     <li class="nav-item">
-                        <a class="nav-link mt-1" href="/news">
-                            NEWS
+
+                        <a class="nav-link  mt-1" href="/news">
+                            {{trans("content.news")}}
                         </a>
+
                     </li>
                     <li class="nav-item">
                         <a class="nav-link   mt-1" href="/projects">
-                            PROJECTS
+                            {{trans("content.projects")}}                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  mt-1" href="/album">
+                            {{trans("content.album")}}
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mt-1" href="/album">
-                            GALLERY </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link mt-1" href="/contact">
-                            CONTACT
+                        <a class="nav-link  mt-1" href="/contact">
+                            {{trans("content.contact")}}
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link mt-1" href="/about">
-                            ABOUT
+                        <a class="nav-link  mt-1" href="/about">
+                            {{trans("content.about")}}
                         </a>
-{{--                    <li class="nav-item">--}}
-{{--                        <a class="nav-link btn btn-sm" href="/about">--}}
-{{--                            ENGLISH--}}
-{{--                        </a>--}}
-{{--                    </li>--}}
-{{--                    <li class="nav-item">--}}
-{{--                        <a class="nav-link btn btn-sm" href="/about">--}}
-{{--                            عربي--}}
-{{--                        </a>--}}
-{{--                    </li>--}}
+                    <li class="nav-item">
+                        <div class="btn-group" role="group" aria-label="Basic example">
+
+                        <a class="nav-link mt-2 btn btn btn-sm" href="/lang/en">
+                            ENGLISH
+                        </a>
+                        <a class="nav-link mt-2 btn btn btn-sm" href="/lang/ar">
+                            عربي
+                        </a>
+                        </div>
+                    </li>
                 </ul>
 
             </div>

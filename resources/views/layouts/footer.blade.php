@@ -5,58 +5,49 @@
                 <h1 class="title">Universal</h1>
             </div>
             <div class="col-md-3 col-6">
-                <ul class="nav">
+                <ul class="nav {{app()->getLocale()=="ar"?"ar-nav":""}}"">
                     <li class="nav-item">
                         <a href="./index.html" class="nav-link">
-                            Home
+                            {{trans("content.home")}}
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="./examples/landing-page.html" class="nav-link">
-                            Landing
+                        <a href="/album" class="nav-link">
+                            {{trans("content.album")}}
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="./examples/register-page.html" class="nav-link">
-                            Register
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="./examples/profile-page.html" class="nav-link">
-                            Profile
+                        <a href="/news" class="nav-link">
+                            {{trans("content.news")}}
                         </a>
                     </li>
                 </ul>
             </div>
             <div class="col-md-3 col-6">
-                <ul class="nav">
+                <ul class="nav {{app()->getLocale()=="ar"?"ar-nav":""}}">
                     <li class="nav-item">
-                        <a href="https://creative-tim.com/contact-us?ref=blkdsp-footer" class="nav-link">
-                            Contact Us
+                        <a href="/contact" class="nav-link">
+                            {{trans("content.contact")}}
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="https://creative-tim.com/about-us?ref=blkdsp-footer" class="nav-link">
-                            About Us
+                        <a href="/about" class="nav-link">
+                            {{trans("content.about")}}
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="http://creative-tim.com/blog?ref=blkdsp-footer" class="nav-link">
-                            Blog
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://opensource.org/licenses/MIT?ref=blkdsp-footer" class="nav-link">
-                            License
+                            {{trans("content.projects")}}
                         </a>
                     </li>
                 </ul>
             </div>
             <div class="col-md-3">
-                <h3 class="title">Follow us:</h3>
+                <h3 class="title">                            {{trans("content.footer1")}}
+                </h3>
                 <div class="btn-wrapper profile text-left">
                     <a target="_blank" href="https://twitter.com/creativetim" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
-                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
                     </a>
                     <a target="_blank" href="https://www.facebook.com/creativetim" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Like us">
                         <i class="fab fa-facebook-square"></i>

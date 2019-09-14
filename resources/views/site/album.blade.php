@@ -2,20 +2,26 @@
 @section("content")
     <style>
         footer{
-            position: absolute;
+            position: relative;
             right: 0;
             bottom: 0;
             left: 0;
             z-index: 1030;
         }
+        .fix-height{
+            min-height: 550px;
+        }
     </style>
-   <div class="container">
+   <div class="container fix-height">
        <div class="row mt-5 justify-content-center">
            <div class="col-auto">
-               <h1 class="title text-center text-white ">OUR ALBUM</h1>
+               <h1 class="title text-center text-white mt-4 ">{{trans("content")}}</h1>
            </div>
        </div>
        <div class="row justify-content-center mt-1">
+           @empty($images)
+               <h1 class="text-muted mt-2">No images added yet</h1>
+           @endempty
        @foreach($images as $image)
            <div class="col-md-4">
                <div class="card mb-4 box-shadow">
@@ -28,9 +34,9 @@
                    </div>
                </div>
            </div>
-               @endforeach
+           @endforeach
+               <br>
        </div>
 
    </div>
-
     @endsection

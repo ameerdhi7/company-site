@@ -1,123 +1,46 @@
 @extends("layouts.master")
 @section("content")
-        <div class="page-header header-filter contactus-3">
-            <div class="page-header-image" style="background-image: url('/assets/img/andre-benz.jpg');"></div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <h1 class="title">Got a question?</h1>
-                        <h3>We'd like to talk more about what you need</h3>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="main">
-            <div class="container-fluid">
-                <div class="row infos mb-5">
-                    <div class="col-lg-3">
-                        <div class="info info-hover">
-                            <div class="icon icon-primary">
-                                <img class="bg-blob" src="../assets/img/feature-blob/primary.png">
-                                <i class="tim-icons icon-square-pin"></i>
-                            </div>
-                            <h4 class="info-title">Address</h4>
-                            <p class="description">Baghdad-al-Mansour-14 Ramadan street</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="info info-hover">
-                            <div class="icon icon-info">
-                                <img class="bg-blob" src="../assets/img/feature-blob/info.png">
-                                <i class="tim-icons icon-email-85"></i>
-                            </div>
-                            <h4 class="info-title">Email</h4>
-                            <p class="description">support@youremail.com</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="info info-hover">
-                            <div class="icon icon-warning">
-                                <img class="bg-blob" src="../assets/img/feature-blob/warning.png">
-                                <i class="tim-icons icon-mobile"></i>
-                            </div>
-                            <h4 class="info-title">Phone Number</h4>
-                            <p class="description">009647901329396</p>
-                            <p class="description">009647719424271</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3">
-                        <div class="info info-hover">
-                            <div class="icon icon-success">
-                                <img class="bg-blob" src="../assets/img/feature-blob/success.png">
-                                <i class="tim-icons icon-single-02"></i>
-                            </div>
-                            <h4 class="info-title">Contact</h4>
-                            <p class="description">Andrew Samian</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="row mt-5 mb-4 pt-5">
-                    <div class="col-md-8 ml-auto mr-auto text-center mt-5">
-                        <span class="badge badge-info">Leave a message</span>
-                        <h1 class="title">Tell us more about
-                            <b>yourself</b>
-                        </h1>
-                        <h4 class="desc">Whether you have questions or you would just like to say hello, contact us.</h4>
-                    </div>
-                </div>
-                <div class="row justify-content-center">
-                    <div class="col-auto">
-                        @if($errors->any())
-                            <div class="alert black mt-0" role="alert">
-                                <h3 class="red">Please Enter Vaild Data</h3>
-                                <ol>
-                                    @foreach($errors->all() as $error)
-                                        <li class="mt-2  text-center text-white"><h3>{{$error}}</h3></li>
-                                    @endforeach
-                                </ol>
-                            </div>
-                        @endif
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-md-10 mx-auto ">
-                        <form  action="/contact" class="p-3" id="contact-form" method="post">
-                            @csrf
-                            <div class="card-body">
-                                <div class="row">
-                                    <div class="col-md-12">
-                                        <label>Full name</label>
-                                        <div class="input-group">
-                                            <div class="input-group-prepend">
-                                                <span class="input-group-text"><i class="tim-icons icon-single-02"></i></span>
-                                            </div>
-                                            <input type="text" name="full_name" class="form-control" placeholder="Full Name..." aria-label="First Name...">
-                                        </div>
-                                    </div>
 
-                                </div>
-                                <div class="form-group">
-                                    <label>Email address</label>
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <span class="input-group-text"><i class="tim-icons icon-email-85"></i></span>
-                                        </div>
-                                        <input type="email" name="email" class="form-control" placeholder="Email Here...">
-                                    </div>
-                                </div>
-                                <div class="form-group">
-                                    <label>Your message</label>
-                                    <textarea name="message" class="form-control" id="message" rows="6"></textarea>
-                                </div>
-                                <div class="row">
-                                    <div class="col-md-6 ml-auto">
-                                        <button type="submit" class="btn btn-secondary btn-round pull-right">Send Message</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
+    <section class=" py-5 " id="about-us">
+        <div class="container mt-5">
+            <div class="row align-items-center">
+                @if(app()->getLocale()=="ar")
+                    <div class="col-md-6 ">
+                        <img src="/assets/img/team.png"alt="">
                     </div>
+                <div class="col-md-6 align-baseline">
+                    <h1 class='text-info right'>{{trans("content.about_1")}}<br><span class="text-white mt-3">{{trans("content.about_2")}}</span></h1>
+                    <h5 class="right">{{trans("content.about_3")}}</h5>
+                    <a href="/contact" class="btn right btn-warning">{{trans("content.contact")}}</a>
                 </div>
+                @else
+                    <div class="col-md-6">
+                        <h1 class='text-info'>{{trans("content.about_1")}}<br><span class="text-white mt-3">{{trans("content.about_2")}}</span></h1>
+                        <h5>{{trans("content.about_3")}}</h5>
+                        <a href="/contact" class="btn btn-warning">CONTACT US</a>
+                    </div>
+                    <div class="col-md-6">
+                        <img src="/assets/img/team.png"alt="">
+                    </div>
+                @endif
+
+
+
+            </div>
+            <div class="row justify-content-center">
+             <div class="col-12">
+                 <div class="info info-hover">
+                     <div class="icon icon-warning">
+                         <img class="bg-blob" src="../assets/img/feature-blob/success.png">
+                         <i class="tim-icons icon-single-02"></i>
+                     </div>
+                     <h1 class="info-title">{{trans("content.manager")}}</h1>
+                     <h3 class="description">{{trans("content.manager_name")}}</h3>
+                 </div>
+             </div>
+
             </div>
         </div>
-    @endsection
+        <br/>
+    </section>
+@endsection

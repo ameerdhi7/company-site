@@ -11,4 +11,5 @@ const mix = require('laravel-mix');
  |
  */
 
-mix.sass('resources/sass/blk-design-system-pro.scss', 'public/assets/css');
+mix.js('resources/js/app.js','public/js')
+    .sass('resources/sass/blk-design-system-pro.scss', 'public/assets/css');

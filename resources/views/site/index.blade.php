@@ -29,18 +29,12 @@
             <article>
                 <div class="row justify-content-center">
                     <h1 class="text-white title">
-                        UNIVERSAL OF INDUSTRIES DEVELOPMENT COMP.
+                        {{trans("content.index_h1")}}
                     </h1>
                     <div class="col-auto">
                         <h4 class="">
-                            We are a global industrial development company. We are pleased to express to you our desire
-                            and our full willingness to cooperate with you in
-                            In the processing of all types of scientific and research laboratories and engineering and
-                            industrial machinery and the establishment of their own buildings in a global way
-                            In accordance with the technical specifications that you require and from the best known
-                            global origins, our company depends in its work on the expertise of its engineering and
-                            technical cadres specialized and to follow the method of practical implementation of high
-                            specifications and in all fields, especially in the field of steel buildings
+                            {{trans("content.index_h4")}}
+
                         </h4>
                     </div>
                 </div>
@@ -50,7 +44,8 @@
     <div class="container">
         <div class="row-justify-content-center">
             <div class="col-auto">
-                <h1 class="text-white text-center title pb-3">Our Partners</h1>
+                <h1 class="text-white text-center title pb-3">                            {{trans("content.partners")}}
+                </h1>
                 <section class="customer-logos slider">
                     @foreach($partners as $partner)
                         <a href="/partners/{{$partner->id}}">

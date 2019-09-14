@@ -3,6 +3,7 @@
 namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
+use function foo\func;
 
 class AppServiceProvider extends ServiceProvider
 {
@@ -23,6 +24,12 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //
+     app()->singleton("lang",function(){
+         if (session()->has("lang")){
+           return  session()->get("lang");
+         }else{
+             return "en";
+         }
+     });
     }
 }
