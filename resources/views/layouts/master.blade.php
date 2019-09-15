@@ -18,32 +18,8 @@
 <script src="/assets/js/core/popper.min.js" type="text/javascript"></script>
 <script src="/assets/js/core/bootstrap.min.js" type="text/javascript"></script>
 <script src="/assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
-<script src="/assets/js/plugins/slick.js" type="text/javascript"></script>
 <script src="/assets/js/plugins/jasny-bootstrap.min.js"></script>
 <script src="/assets/js/blk-design-system-pro.min.js?v=1.0.0" type="text/javascript"></script>
-<script>
-    $(document).ready(function(){
-        $('.customer-logos').slick({
-            slidesToShow: 6,
-            slidesToScroll: 1,
-            autoplay: true,
-            autoplaySpeed: 1500,
-            arrows: false,
-            dots: false,
-            pauseOnHover: false,
-            responsive: [{
-                breakpoint: 768,
-                settings: {
-                    slidesToShow: 4
-                }
-            }, {
-                breakpoint: 520,
-                settings: {
-                    slidesToShow: 3
-                }
-            }]
-        });
-    });
-</script>
+  @stack("scripts")
 </body>
 </html>
