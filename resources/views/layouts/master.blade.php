@@ -17,9 +17,8 @@
 <script src="/assets/js/core/jquery.min.js" type="text/javascript"></script>
 <script src="/assets/js/core/popper.min.js" type="text/javascript"></script>
 <script src="/assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-<script src="/assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
 <script src="/assets/js/plugins/jasny-bootstrap.min.js"></script>
 <script src="/assets/js/blk-design-system-pro.min.js?v=1.0.0" type="text/javascript"></script>
-  @stack("scripts")
+@stack("scripts")
 </body>
 </html>
