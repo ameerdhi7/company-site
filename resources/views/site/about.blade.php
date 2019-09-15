@@ -10,7 +10,7 @@
                     </div>
                 <div class="col-md-6 align-baseline">
                     <h1 class='text-info right'>{{trans("content.about_1")}}<br><span class="text-white mt-3">{{trans("content.about_2")}}</span></h1>
-                    <h5 class="right">{{trans("content.about_3")}}</h5>
+                    <h4 class="right">{{trans("content.about_3")}}</h4>
                     <a href="/contact" class="btn right btn-warning">{{trans("content.contact")}}</a>
                 </div>
                 @else
@@ -23,8 +23,6 @@
                         <img src="/assets/img/team.png"alt="">
                     </div>
                 @endif
-
-
 
             </div>
             <div class="row justify-content-center">

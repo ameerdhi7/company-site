@@ -23,8 +23,9 @@
         <div class="card card-nav-tabs">
             <div class="card-body">
                 <blockquote class="blockquote mb-0">
-                    <p>{{$post->title}}</p>
-                    <footer class="blockquote-footer bg-light">{{$post->desc}} <cite title="Source Title">read more</cite></footer>
+                    <p class="text-white">{{$post->title}}</p>
+                    <p class="blockquote-footer text-white">{{substr($post->desc, 0, 10)}}
+                        <a href="/news/{{$post->id}}/">read more</a></p>
                 </blockquote>
             </div>
         </div>

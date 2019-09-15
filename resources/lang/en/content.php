@@ -35,8 +35,6 @@ founded in the republic of jake -Brno",
     'contact_button'=>"send message",
     'footer1'=>"Follow Us",
     'album_page'=>"our album",
-
-
 ];
 
 

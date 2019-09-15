@@ -12,20 +12,26 @@
             margin-top: 7rem;
         }
     </style>
-    <h1 class="text-center text-white">OUR AWESOME PROJECTS</h1>
+    <h1 class="text-center text-white">{{trans("content.projects_page")}}</h1>
     <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-9">
-               <img src="/assets/img/bg4.png" class="w-100" alt="">
-           </div>
-       </div>
 
         <div class="row justify-content-center mt-3">
-            <div class="col-12">
-                <form class="form-inline">
-                    <input  class="form-control " type="search" placeholder="Search" aria-label="Search">
+            <div class="col-auto">
+                <form class="form-inline" action="/search/">
+                    <input  class="form-control mr-1 " type="search" name="query" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
+            </div>
+        </div>
+        <div class="row justify-content-center mt-2">
+            <div class="col-auto">
+                @empty($projects)
+                    @if(app()->getLocale()=="en")
+                    <h3 class="text-white text-center">No projects found :/</h3>
+                        @else
+                        <h3 class="text-white text-center"> /: لا توجد مشاريع او لم يتم الأضافة بعد</h3>
+                    @endif
+                @endempty
             </div>
         </div>
         <div class="row justify-content-center  mb-4">
@@ -38,10 +44,10 @@
                          <table class="table table-pricing">
                              <thead class="text-primary">
                              <tr>
-                                 <th>TITLE</th>
-                                 <th>LOCATION</th>
-                                 <th>YEAR</th>
-                                 <th>PARTNER</th>
+                                 <th>{{trans("content.project_title")}}</th>
+                                 <th>{{trans("content.project_location")}}</th>
+                                 <th>{{trans("content.project_year")}}</th>
+                                 <th>{{trans("content.project_partner")}}</th>
                              </tr>
                              </thead>
                              <tbody>

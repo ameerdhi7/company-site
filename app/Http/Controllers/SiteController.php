@@ -73,9 +73,23 @@ class SiteController extends Controller
         return back();
 
     }
-    public function search($query){
 
+    public function search(Request $request)
+    {
+        $rules = ["query" => "required"];
+        $request = $this->validate($request, $rules);
+        $projects = Project::where("title", "like", "%{$request["query"]}%")->orWhere("year", "like", "%{$request["query"]}%")->get();
+        if ($projects == null)
+            $projects = Partner::where("name", "like", "%{$request["query"]}%")->get();
+        $data = ["projects" => $projects];
+        return view("site.projects", $data);
 
-        Project::where("name","=","")->where("year")->where();
+    }
+
+    public function getPostDetails(Post $post)
+    {
+        $data = ["post" => $post];
+        return view("site.post", $data);
+
     }
 }

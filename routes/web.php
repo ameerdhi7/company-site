@@ -19,7 +19,8 @@ Route::group(["middleware"=>"lang"],function (){
     Route::get("/news","SiteController@getPosts");
     Route::get("/album","SiteController@getImages");
     Route::post("/contact","SiteController@storeMessage");
-    Route::get("/search/{query}","SiteController@search");
+    Route::get("/search/","SiteController@search");
+    Route::get("/news/{post}/","SiteController@getPostDetails");
     ;
 });
 Route::get("/lang/{lang}","SiteController@setUserLang");
