@@ -45,7 +45,7 @@
                              <thead class="text-primary">
                              <tr>
                                  <th>{{trans("content.project_title")}}</th>
-                                 <th>{{trans("content.project_location")}}</th>
+                                 <th>{{trans("content.project_loc")}}</th>
                                  <th>{{trans("content.project_year")}}</th>
                                  <th>{{trans("content.project_partner")}}</th>
                              </tr>

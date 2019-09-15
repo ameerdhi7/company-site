@@ -11,7 +11,7 @@
     </style>
    <div class="container fix-height">
        <div class="row mt-5 justify-content-center">
-           <div class="col-auto">
+           <div class="col-auto mt-3">
                <h1 class="title text-center text-white mt-4 ">{{trans("content.album_page")}}</h1>
            </div>
        </div>

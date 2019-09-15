@@ -23,6 +23,7 @@ return [
     'project_title'=>"أسم المشروع",
     'project_loc'=>"موقع المشروع",
     'project_year'=>"تاريخ المشروع",
+    'project_partner'=>"الوكيل",
     'partner'=>"الوكيل",
     'contact_page1'=>"لديك سؤال",
     'contact_page2'=>"دعنا نتحدث اكثر حول ما تحتاج",
@@ -36,7 +37,6 @@ return [
     'contact_button'=>"أرسال",
     'footer1'=>"تابعنا",
     'album_page'=>"الألبوم",
-
 
 ];
 
