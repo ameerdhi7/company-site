@@ -7,7 +7,7 @@ class Partner extends Model
 {
   protected $fillable=["name","logo"];
 
-  public function Projects(){
+  public function projects(){
 
      return $this->hasMany(Project::class);
   }

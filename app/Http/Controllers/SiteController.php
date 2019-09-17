@@ -9,6 +9,7 @@ use App\Post;
 use App\Project;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Response;
+use function Composer\Autoload\includeFile;
 
 class SiteController extends Controller
 {
@@ -79,8 +80,10 @@ class SiteController extends Controller
         $rules = ["query" => "required"];
         $request = $this->validate($request, $rules);
         $projects = Project::where("title", "like", "%{$request["query"]}%")->orWhere("year", "like", "%{$request["query"]}%")->get();
-        if ($projects == null)
-            $projects = Partner::where("name", "like", "%{$request["query"]}%")->get();
+       if ( !isset($projects[0])) {
+         $partner = Partner::where("name", "like", "%{$request["query"]}%")->first();
+         $projects=$partner->projects;
+         }
         $data = ["projects" => $projects];
         return view("site.projects", $data);
 

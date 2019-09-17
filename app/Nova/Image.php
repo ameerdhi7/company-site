@@ -43,6 +43,7 @@ class Image extends Resource
         return [
             ID::make()->sortable(),
             Avatar::make("image"),
+
         ];
     }
 
