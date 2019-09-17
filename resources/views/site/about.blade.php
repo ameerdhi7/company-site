@@ -16,7 +16,7 @@
                 @else
                     <div class="col-md-6">
                         <h1 class='text-info'>{{trans("content.about_1")}}<br><span class="text-white mt-3">{{trans("content.about_2")}}</span></h1>
-                        <h5>{{trans("content.about_3")}}</h5>
+                        <h4>{{trans("content.about_3")}}</h4>
                         <a href="/contact" class="btn btn-warning">CONTACT US</a>
                     </div>
                     <div class="col-md-6">

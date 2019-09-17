@@ -5,7 +5,8 @@
             <div class="carousel-item active">
                 <img class="d-block slide-height   w-100" src="./assets/img/slides/slide1.png" alt="First slide">
                 <div class="carousel-caption d-none d-md-block">
-
+{{--                    <h2 class="text-white">Equipping the training center the laboratories of the university of technology with equipment, machinery and modern </h2>--}}
+{{--                    <p>...</p>--}}
                 </div>
             </div>
             <div class="carousel-item rgba-black-strong">
@@ -28,7 +29,7 @@
         <div class="container mt-5">
             <article>
                 <div class="row justify-content-center">
-                    <h1 class="text-white title">
+                    <h1 class="text-white title m-2">
                         {{trans("content.index_h1")}}
                     </h1>
                     <div class="col-auto">
@@ -44,7 +45,7 @@
     <div class="container">
         <div class="row-justify-content-center">
             <div class="col-auto">
-                <h1 class="text-white text-center title pb-3">                            {{trans("content.partners")}}
+                <h1 class="text-white text-center mr-1 title pb-3">                            {{trans("content.partners")}}
                 </h1>
                 <section class="customer-logos slider">
                     @foreach($partners as $partner)
@@ -70,7 +71,7 @@
 @push("scripts")
     <script src="/assets/js/plugins/slick.js" type="text/javascript"></script>
     <script>
-        $(document).ready(function(){
+        $(document).ready(function () {
             $('.customer-logos').slick({
                 slidesToShow: 6,
                 slidesToScroll: 1,
@@ -93,4 +94,4 @@
             });
         });
     </script>
-    @endpush
+@endpush

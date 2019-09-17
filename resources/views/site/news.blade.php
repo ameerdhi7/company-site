@@ -19,7 +19,7 @@
                 </div>
 <div class="row">
 @foreach($posts as $post)
-    <div class="col-3">
+    <div class="col-auto col-md-3">
         <div class="card card-nav-tabs">
             <div class="card-body">
                 <blockquote class="blockquote mb-0">
@@ -32,6 +32,7 @@
     </div>
     @endforeach
 </div>
+                <span class="mt-2">{{$posts->links()}}</span>
 </div>
  </div>
     @endsection

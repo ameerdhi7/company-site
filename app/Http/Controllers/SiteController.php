@@ -15,7 +15,7 @@ class SiteController extends Controller
     public function home()
     {
 
-        $partners = Partner::all();
+        $partners = Partner::orderBy("id","desc")->paginate(15);
         $data = ["partners" => $partners];
         return view("site.index", $data);
     }
@@ -23,7 +23,7 @@ class SiteController extends Controller
     public function getPosts()
     {
 
-        $posts = Post::all();
+        $posts = Post::orderBy("id","desc")->paginate(12);
         $data = ["posts" => $posts];
         return view("site.news", $data);
     }
@@ -36,14 +36,14 @@ class SiteController extends Controller
 
     public function getProjects()
     {
-        $projects = Project::paginate(10);
+        $projects = Project::orderBy("id","desc")->paginate(10);
         $data = ["projects" => $projects];
         return view("site.projects", $data);
     }
 
     public function getImages()
     {
-        $images = Image::paginate(9);
+        $images = Image::orderBy("id","desc")->paginate(9);
         $data = ["images" => $images];
         return view("site.album", $data);
     }

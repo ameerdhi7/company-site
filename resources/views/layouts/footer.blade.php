@@ -36,7 +36,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="http://creative-tim.com/blog?ref=blkdsp-footer" class="nav-link">
+                        <a href="/projects" class="nav-link">
                             {{trans("content.projects")}}
                         </a>
                     </li>
@@ -46,13 +46,13 @@
                 <h3 class="title">                            {{trans("content.footer1")}}
                 </h3>
                 <div class="btn-wrapper profile text-left">
-                    <a target="_blank" href="https://twitter.com/creativetim" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
+                    <a target="_blank" href="https://twitter.com/" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a target="_blank" href="https://www.facebook.com/creativetim" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Like us">
+                    <a target="_blank" href="https://www.facebook.com/" class="btn btn-icon btn-neutral btn-round btn-simple" data-toggle="tooltip" data-original-title="Like us">
                         <i class="fab fa-facebook-square"></i>
                     </a>
-                    <a target="_blank" href="https://dribbble.com/creativetim" class="btn btn-icon btn-neutral  btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
+                    <a target="_blank" href="https://dribbble.com/" class="btn btn-icon btn-neutral  btn-round btn-simple" data-toggle="tooltip" data-original-title="Follow us">
                         <i class="fab fa-dribbble"></i>
                     </a>
                 </div>

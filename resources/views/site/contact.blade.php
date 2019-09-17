@@ -52,7 +52,6 @@
                         <span class="badge badge-info">{{trans("content.contact_page3")}}</span>
                         <h1 class="title">{{trans("content.contact_page4")}}
                         </h1>
-                        <h4 class="desc">Whether you have questions or you would just like to say hello, contact us.</h4>
                     </div>
                 </div>
                 <div class="row justify-content-center">

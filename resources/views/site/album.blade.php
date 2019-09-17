@@ -34,6 +34,6 @@
            @endforeach
                <br>
        </div>
-
+       <span class="mt-2">{{$images->links()}}</span>
    </div>
     @endsection

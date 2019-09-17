@@ -48,7 +48,7 @@ class Project extends Resource
             Text::make("title"),
             Text::make("location"),
             Text::make("Year"),
-            BelongsTo::make('Partner'),
+            BelongsTo::make('Partner')->display("name"),
         ];
     }
 

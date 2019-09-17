@@ -56,10 +56,13 @@
                                  <td>{{$project->title}}</td>
                                  <td>{{$project->location}}</td>
                                  <td>{{$project->year}}</td>
+                                 @isset($project->partner->name)
                                  <td><a href="/partners/{{$project->partner->id}}" class="text-primary">{{$project->partner->name}}</a></td>
+                                 @endisset
                                  @endforeach
                              </tr>
                              </tbody>
+                             <span class="mt-2">{{$projects->links()}}</span>
                          </table>
                      </div>
                  </div>

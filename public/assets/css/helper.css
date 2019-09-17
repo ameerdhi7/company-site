@@ -6,11 +6,9 @@
 .rgba-black-slight:after {
     background-color: rgba(0, 0, 0, 0.1);
 }
-
 .rgba-black-light {
     background-color: rgba(0, 0, 0, 0.3);
 }
-
 .rgba-black-strong {
     background-color: rgba(0, 0, 0, 0.7);
 }
@@ -27,23 +25,17 @@
 nav{
     margin-top: -10px;
 }
-
-
-
 h2{
     text-align:center;
     padding: 20px;
 }
 /* Slider */
-
 .slick-slide {
     margin: 0px 20px;
 }
-
 .slick-slide img {
     width: 100%;
 }
-
 .slick-slider
 {
     position: relative;
@@ -59,7 +51,6 @@ h2{
     touch-action: pan-y;
     -webkit-tap-highlight-color: transparent;
 }
-
 .slick-list
 {
     position: relative;
@@ -151,8 +142,7 @@ h2{
     display: none;
 }
 .ar-nav li a{
-    font-weight: 700;
-
+    font-weight: 600;
 }
 .right{
     float: right;
